@@ -1,0 +1,12 @@
+name: nautilus-env
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - pip
+  - jupyterlab=4.*
+  - nodejs  # для виджетов
+  - pip:
+    - nautilus_trader
+    - ipywidgets
